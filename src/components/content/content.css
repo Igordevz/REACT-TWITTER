@@ -1,0 +1,355 @@
+body {
+    height: 930px;
+}
+
+.top {
+
+    top: 15px;
+    position: absolute;
+    left: 55px;
+    display: flex;
+}
+
+.top h1, .top a, .top img {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.top h1 {
+    color: gray;
+    font-weight: 400;
+}
+
+.top a {
+    color: #1A8CD8;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 300px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    position: relative;
+    height: 630px;
+
+
+    width: 590px;
+}
+
+.content:hover {
+    background: #080808;
+}
+
+.top #exit {
+    left: 500px;
+    position: absolute;
+}
+
+.home-2 {
+    border-radius: 50%;
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+}
+
+.conteudo {
+
+    position: absolute;
+    left: 25px;
+    top: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo h1 {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.info-user {
+    margin-left: 10px;
+    display: flex;
+}
+
+.info-user p {
+    cursor: pointer;
+    margin-top: 1px;
+    font-size: 13px;
+    color: grey;
+}
+
+.title {
+    position: absolute;
+    top: 70px;
+    left: 85px;
+}
+
+.anuncio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anuncio img {
+
+    margin-top: 105px;
+    border-radius: 7px;
+}
+
+.mini-logo-2 {
+    margin-top: 15px;
+    margin-left: 125px;
+    display: flex;
+}
+
+.mini-logo-2 p {
+    margin-right: 85px;
+    font-size: 14px;
+}
+
+.mini-logo-2 p {
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+/* #curtir, #enviar*/
+.mini-logo-2 #comentar:hover {
+    background: #0A1720;
+    border: 5px solid #0A1720;
+    border-radius: 20px;
+}
+
+.mini-logo-2 #enviar:hover {
+    background: #071A14;
+    border: 5px solid #071A14;
+    border-radius: 20px;
+}
+
+.mini-logo-2 #curtir:hover {
+    background: #210914;
+    border: 5px solid #210914;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1247px) {
+    body {
+        height: 930px;
+    }
+
+    .top {
+        top: 15px;
+        position: absolute;
+        left: 55px;
+        display: flex;
+    }
+
+    .top h1, .top a, .top img {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .top h1 {
+        color: gray;
+        font-weight: 400;
+    }
+
+    .top a {
+        color: #1A8CD8;
+        text-decoration: none;
+    }
+
+    .content {
+        border-right: 1px solid grey;
+
+        position: relative;
+        height: 630px;
+
+        margin-left: 80px;
+        width: 88%;
+    }
+
+    .content:hover {
+        background: #080808;
+    }
+
+    .top #exit {
+        left: 500px;
+        position: absolute;
+    }
+
+    .home-2 {
+        border-radius: 50%;
+        background-color: grey;
+        height: 50px;
+        width: 50px;
+    }
+
+    .conteudo {
+
+        position: absolute;
+        left: 25px;
+        top: 45px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .conteudo h1 {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+
+    .info-user {
+        margin-left: 10px;
+        display: flex;
+    }
+
+    .info-user p {
+        cursor: pointer;
+        margin-top: 1px;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .title {
+        position: absolute;
+        top: 70px;
+        left: 85px;
+    }
+
+    .anuncio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .anuncio img {
+
+        margin-top: 105px;
+        border-radius: 7px;
+    }
+
+    .mini-logo-2 {
+        margin-left: 125px;
+        display: flex;
+    }
+
+    .mini-logo-2 p {
+        margin-right: 35px;
+        font-size: 14px;
+    }
+
+    .mini-logo-2 p {
+        cursor: pointer;
+        margin-top: 3px;
+    }
+
+    /* #curtir, #enviar*/
+    .mini-logo-2 #comentar:hover {
+        background: #0A1720;
+        border: 5px solid #0A1720;
+        border-radius: 20px;
+    }
+
+    .mini-logo-2 #enviar:hover {
+        background: #071A14;
+        border: 5px solid #071A14;
+        border-radius: 20px;
+    }
+
+    .mini-logo-2 #curtir:hover {
+        background: #210914;
+        border: 5px solid #210914;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 605px) {
+    .top #exit {
+        left: 330px;
+        position: absolute;
+    }
+
+    .anuncio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .anuncio img {
+        width: 330px;
+        margin-top: 135px;
+        border-radius: 7px;
+    }
+}
+@media (max-width: 605px) {
+    .content {
+ 
+        border-right: 1px solid ;
+       margin-left: 65px;
+        position: relative;
+        height: 630px;
+    
+    
+        width: 88%;
+    }
+}
+@media (max-width: 496px) {
+    .content{
+        margin-left: 79px;
+        height: 530px;
+
+        width: 79%;
+    }
+    .top #exit {
+        left: 210px;
+        position: absolute;
+    }
+    .anuncio img {
+        width: 230px;
+        margin-top: 155px;
+        border-radius: 7px;
+    }
+    .mini-logo-2 {
+        margin-left: 25px;
+        display: flex;
+    }
+}

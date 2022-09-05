@@ -1,0 +1,68 @@
+
+.line h1{
+    position: absolute;
+    top: 18px;
+    left: 40%;
+    font-weight: 400;
+    font-size: 17px;
+}
+.line {
+    margin-left: 300px;
+    border-right: 1px solid grey;
+    width:  590px;
+    position: relative;
+    border-bottom:1px solid grey ;
+    height: 60px;
+    color: #1A8CD8;
+}
+.line:hover{
+    background: #080808;
+}
+.line h1:hover{
+    background: #080808;
+}
+
+
+@media (max-width: 1247px) {
+.line h1{
+    position: absolute;
+    top: 18px;
+    left: 40%;
+    font-weight: 400;
+    font-size: 17px;
+}
+.line {
+    margin-left: 80px;
+    width: 88%;
+    position: relative;
+    border-bottom:1px solid grey ;
+    height: 60px;
+    color: #1A8CD8;
+}
+.line:hover{
+    background: #080808;
+}
+.line h1:hover{
+    background: #080808;
+}
+}
+@media (max-width: 605px) {
+    .line {
+        margin-left: 82px;
+        border-right: 1px solid grey;
+        width:84%;
+        position: relative;
+        border-bottom:1px solid grey ;
+        height: 60px;
+        color: #1A8CD8;
+    }
+}
+@media (max-width: 496px) {
+    .line{
+       
+        width: 78%;
+    }
+    .line h1{
+        left: 85px;
+    }
+}

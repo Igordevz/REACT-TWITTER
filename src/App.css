@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body img{
+    cursor: pointer;
+}
+body{
+    color: white;
+    background: black;
+}
+main{
+    width: 100%;
+}
+.app{
+    flex-direction: row;
+    display: flex;
+    color: white;
+}
+.Basic{
+    display: flex;
+    position: relative;
+}

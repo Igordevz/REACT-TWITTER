@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    margin-left: 300px;
+    border-bottom: 1px solid grey;
+    height: 200px;
+    border-right: 1px solid grey;
+    width: 590px;
+    position: relative;
+
+}
+.form-input input{
+    position: absolute;
+    color: white    ;
+    
+    outline: none;
+    top: 85px;
+    left: 85px;
+    font-size: 20px;
+    border: none;
+    background: none;
+}
+header h1{
+    left: 25px;
+    top: 25px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+}
+header img{
+    position: absolute;
+    left: 500px;
+}
+.home-header{
+    left: 25px;
+    top: 65px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+}
+.mini-logo img{
+    cursor: pointer;
+    top: 135px;
+    margin-left: 20px;
+    left: 80px;
+    position: relative;
+}
+.btn a{
+    color: white;
+    background: #1A8CD8;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 45px;
+  margin-top: 45px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1247px) {
+
+header{
+    border-bottom: 1px solid grey;
+    height: 200px;
+    margin-left: 80px;
+    width: 88%;
+    position: relative;
+
+}
+header h1{
+    left: 25px;
+    top: 15px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header img{
+    position: absolute;
+    left: 450%;
+}
+.home-header{
+    left: 25px;
+    top: 65px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+}
+.mini-logo img{
+    cursor: pointer;
+    top: 135px;
+    margin-left: 20px;
+    left: 80px;
+    position: relative;
+}
+}
+@media (max-width: 605px) {
+    header img{
+        left: 330px;
+    }
+}
+@media (max-width: 605px) {
+    header{
+      width: 100%;
+
+    }
+}
+@media (max-width: 496px) {
+    header{
+        border-bottom: 1px solid grey;
+        height: 200px;
+        margin-left: 80px;
+        width: 100%;
+        position: relative;
+    
+    }
+    .form-input input{
+     
+        font-size: 15px;
+       
+    }
+    .mini-logo img{
+        width: 20px;
+        cursor: pointer;
+        top: 135px;
+        margin-left: 20px;
+        left: 10px;
+        position: relative;
+    }
+    header img{
+        position: absolute;
+        left: 190%;
+    }
+}
